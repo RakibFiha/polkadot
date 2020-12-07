@@ -195,12 +195,11 @@ dependencies = [
 
 [[package]]
 name = "assert_cmd"
-version = "0.12.2"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "936fcf2c692b37c696cd0002c57752b2d9478402450c9ca4a463f6afae16d6f5"
+checksum = "3dc1679af9a1ab4bea16f228b05d18f8363f8327b1fa8db00d2760cfafc6b61e"
 dependencies = [
  "doc-comment",
- "escargot",
  "predicates",
  "predicates-core",
  "predicates-tree",
@@ -1294,18 +1293,6 @@ checksum = "14ca354e36190500e1e1fb267c647932382b54053c50b14970856c0b00a35067"
 dependencies = [
  "gcc",
  "libc",
-]
-
-[[package]]
-name = "escargot"
-version = "0.5.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "74cf96bec282dcdb07099f7e31d9fed323bca9435a09aba7b6d99b7617bca96d"
-dependencies = [
- "lazy_static",
- "log 0.4.11",
- "serde",
- "serde_json",
 ]
 
 [[package]]
